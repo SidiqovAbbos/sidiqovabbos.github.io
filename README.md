@@ -1,1 +1,0 @@
-# sidiqovabbos.github.io
