@@ -17,6 +17,22 @@ body, html {
 	overflow: hidden;
 }
 
+@keyframes toup {
+	from {top: 800px;}
+	to {top: -350px;}
+  }
+
+img{
+	position: absolute;
+	left: 30px;
+	top: 800px;
+	animation-name: toup;
+	animation-delay: 2s;
+	animation-duration: 8s;
+	animation-timing-function: ease-in-out;
+	  
+}
+
 .congrats {
 	position: absolute;
 	text-align: center;
