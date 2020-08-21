@@ -6,12 +6,13 @@ body {
 	overflow: hidden;
 }
 
+.cont{
+    width: 100%;
+    height: 100vh;
+}
+
 .congrats {
 	position: absolute;
-	top: 300px;
-	width: 550px;
-	height: 100px;
-	padding: 20px 10px;
 	text-align: center;
 	margin: 0 auto;
 	left: 0;
@@ -20,7 +21,6 @@ body {
 
 h1 {
 	transform-origin: 50% 50%;
-	font-size: 40px;
 	font-family: 'Sigmar One', cursive;
 	cursor: pointer;
 	z-index: 2;
