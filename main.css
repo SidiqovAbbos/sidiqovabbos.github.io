@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Sigmar+One);
 
 body {
-	background: #3da1d1;
+	background: linear-gradient(to bottom left, #ff6666 0%, #ff00ff 100%);
 	color: #fff;
 	overflow: hidden;
 }
