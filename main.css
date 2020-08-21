@@ -1,20 +1,28 @@
 @import url(https://fonts.googleapis.com/css?family=Sigmar+One);
 
-body {
-	background: linear-gradient(to bottom left, #ff6666 0%, #ff00ff 100%);
-	color: #fff;
-	overflow: hidden;
+body, html {
+	padding: 0;
+	margin: 0;
+
 }
 
 .cont{
+	display: flex;
+	justify-content: center;
+	align-items: center;
     width: 100%;
-    height: 100vh;
+	height: 100vh;
+	background: linear-gradient(to bottom left, #ff6666 0%, #ff00ff 100%);
+	color: #fff;
+	overflow: hidden;
 }
 
 .congrats {
 	position: absolute;
 	text-align: center;
 	margin: 0 auto;
+	width: 320px;
+	height: 100px;
 	left: 0;
 	right: 0;
 }
